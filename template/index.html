@@ -1,0 +1,443 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel=stylesheet href="/static/css/styles.css">
+   
+
+
+
+    <title>FM Simulation</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container" style="display: flex; flex-direction: row;">
+            <img class="logo" src="/static/images/logo.png">
+            <h1>V-Lab @ ANDC</h1>
+        </div>
+        <ul class="navigation">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/index.html#labs_section">Labs</a></li>
+            <li><a href="/index.html#team">Team</a></li>
+            <li><a href="https://www.andcollege.du.ac.in/" target="_blank" rel="noopener noreferrer">College Website</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="exp-heading">
+        <h1>To Simulate virtually and Interpret Frequency Modulation and De modulation waveforms and also to demonstrate
+            how the signal is modulated as the parameters of carrier signal is varied</h1>
+    </div>
+    <nav>
+        <div class="boxq">
+            <a class="internal_link" href="#aim">
+                <img class="icon"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBmpbB3jSjMF-FDgIL1E-eRN6eeCDLSsvoAQ&usqp=CAU"><br>
+                Aim</a>
+        </div>
+        <div class="boxq">
+            <a class="internal_link" href="#theory">
+                <img class="icon" src="https://cdn-icons-png.flaticon.com/512/1648/1648697.png"><br>
+                Theory</a>
+        </div>
+        <div class="boxq">
+            <a class="internal_link" href="#procedure">
+                <img class="icon"
+                    src="https://cdn4.iconfinder.com/data/icons/project-management-1-11/65/23-512.png"><br>
+                Procedure</a>
+        </div>
+
+        <div class="boxq">
+            <a class="internal_link" href="#simulator">
+                <img class="icon"
+                    src="https://thumbs.dreamstime.com/b/computer-simulation-icon-flat-style-vr-device-vector-illustration-black-round-background-long-shadow-technology-149360530.jpg"><br>
+                Simulator</a>
+        </div>
+        <div class="boxq">
+            <a class="internal_link" href="#observation">
+                <img class="icon"
+                    src="https://img.freepik.com/free-vector/business-management-vector_53876-44131.jpg?size=338&ext=jpg"><br>
+                Observations</a>
+        </div>
+
+        <div class="boxq">
+            <a class="internal_link" href="#result">
+                <img class="icon"
+                    src="https://cdn4.iconfinder.com/data/icons/collection-of-online-business-icons/64/Board_Chart_Results_Business-512.png"><br>
+                Result</a>
+        </div>
+        <div class="boxq">
+            <a class="internal_link" href="#precaution">
+                <img class="icon" src="https://cdn-icons-png.flaticon.com/512/2698/2698937.png"><br>
+                Precaution</a>
+        </div>
+        <div class="boxq">
+            <a class="internal_link" href="#references">
+                <img class="icon" src="https://image.pngaaa.com/134/5592134-middle.png"><br>
+                References</a>
+        </div>
+    </nav>
+
+    <section id="exp">
+        <div class="container">
+            <div class="box" id="aim">
+                <div class="title">
+                    <h2 class="heading">Aim</h2>
+                </div>
+                <div class="desc1">
+                    <p class="desc">To Simulate virtually and Interpret Frequency Modulation and Demodulation waveforms and also to demonstrate how the signal is modulated as the parameters of carrier signal is varied.</p>
+                </div>
+            </div>
+    
+            <div class="box" id="theory">
+                <div class="title">
+                    <h1 class="heading">Theory</h1>
+                </div>
+                <div class="desc1">
+                    <br><b>INTRODUCTION</b><br>
+                    If the frequency of the carrier signal is modulated in accordance with the instantaneous amplitude of the message signal, then this process is called <b>Frequency Modulation (FM)</b>. The power level of frequency modulation remains constant because there is no change in the amplitude of the modulated signal.
+                    
+                    <br><br><b>CONCEPT</b><br>
+                    The concept of Frequency Modulation can be explained as follows:<br>
+                    At the center frequency of the output signal, the modulating signal will be zero. As the message signal elevates to a positive peak, the modulated signal will be the sum of the center frequency and modulating frequency. Similarly, as the message signal reaches the negative peak, the output waveform will have a frequency which is the difference between the center frequency and modulating frequency. Therefore, the FM wave will deviate between +Δf and −Δf, which is called frequency deviation.<br>
+                    The modulation index of FM is denoted as the ratio of frequency deviation (Δf) to the modulating frequency (fm).
+                    
+                    <br><br>
+                    <div style="text-align:center;">
+                        <img src="/static/images/modulation index.png" alt="Modulation Index of FM"><br>
+                        <b>Figure 1: Modulation Index of FM</b>
+                    </div>
+            
+                    <br><br><b>Frequency Modulation</b><br><br>
+            
+                    <div style="text-align:center;">
+                        <img src="/static/images/frequency modulated signal.png" alt="Frequency Modulated Signal"><br>
+                        <b>Figure 2: Frequency Modulated Signal</b>
+                    </div>
+            
+                    <br>
+                    Source: <a href="https://www.javatpoint.com/frequency-modulation" target="_blank">https://www.javatpoint.com/frequency-modulation</a><br><br>
+            
+                    The modulated signal can be calculated using the formula:<br>
+                    <img src="/static/images/formula.png" alt="FM Formula"><br>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="box" id="procedure">
+                <div class="title">
+                    <h2 class="heading">Procedure</h2>
+                </div>
+                <div class="desc1">
+                    <ol class="desc">
+                        <li>Click the "Simulation" tab.</li>
+                        <li>The simulator will display the interactive Simulator.<br>
+               
+                        </li>
+                        <li>Set the Message Signal Amplitude and Frequency.<br>
+                            
+                        </li>
+                        <li>Set the Carrier Signal Amplitude and Frequency.<br>
+                        
+                        </li>
+                        <li>Click on the "Modulate" button. This will show the Modulated Message Signal.</li>
+                        <li>Click on the "Start" button. This will start the simulation.</li>
+                        <li>Click on the "Demodulate" button. This will show the Demodulated Message Signal.</li>
+                        <li>Click on the "Stop" button to view the graph in a static state.</li>
+                        <li>In the Results Section, you can view the modulation index and type of modulation (with respect to modulation index).<br>
+                         
+                        </li>
+                        <li>The simulator will display the interactive questions. Attempt the questions.</li>
+                        <li>Note the conclusions from the experiment performed.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="box" id="simulator">
+                <div class="title">
+                    <h2 class="heading">Simulator</h2>
+                </div>
+                <div id="simscreen">
+                    <div id="header">
+                        <h1 id="main-heading">Frequency Modulation</h1>
+                        <div id="sim-buttons-container">
+                            <button onclick="startSim()" id="start" class="sim-buttons">START</button>
+                            <button onclick="stopSim()" id="stop" class="sim-buttons">STOP</button>
+                            <button onclick="modulate()" id="modulate" class="sim-buttons">MODULATE</button>
+                            <button onclick="demodulate()" id="demodulate" class="sim-buttons">DEMODULATE</button>
+                        </div>
+                    </div>
+    
+                    <div id="modulation-screen">
+                        <div class="section" id="message-data">
+                            <h2 class="heading">Message Signal &nbsp; <span class="formula">m(t)=A<sub>m</sub>cos(2πf<sub>m</sub>t)</span></h2>
+                            <div class="canvas-container container">
+                                <canvas id="message" width="450" height="130"></canvas><br>
+                            </div>
+                            <div class="display-container container">
+                                <span class="label">Message Signal Amplitude</span> <br><input id="m-amplitude" step="0.5" type="range" value=10 min=1 max=30>
+                                <p id="m-amplitude-display" class="display">10</p> Volts<br>
+                                <span class="label">Message Signal Frequency</span> <br><input id="m-frequency" type="range" value=3000 min=500 step="500" max=10000>
+                                <p id="m-frequency-display" class="display">3000</p> Hz<br><br>
+                            </div>
+                        </div>
+    
+                        <div class="section" id="carrier-data">
+                            <h2 class="heading">Carrier Signal &nbsp; <span class="formula">c(t)=A<sub>c</sub>cos(2πf<sub>c</sub>t)</span></h2>
+                            <div class="canvas-container container">
+                                <canvas id="carrier" width="450" height="130"></canvas><br>
+                            </div>
+                            <div class="display-container container">
+                                <span class="label">Frequency Deviation</span> <br><input id="c-amplitude" step="0.5" type="range" value=10 min=1 max=30>
+                                <p id="c-amplitude-display" class="display">10</p> <br>
+                                <span class="label">Carrier Signal Frequency</span> <br><input id="c-frequency" type="range" value=20 min=10 max=100>
+                                <p id="c-frequency-display" class="display">20</p> KHz<br><br>
+                            </div>
+                        </div>
+    
+                        <div class="section" id="am-data">
+                            <h2 class="heading">Frequency Modulated Signal</h2>
+                            <div class="canvas-container container">
+                                <canvas id="am" width="450" height="130"></canvas><br><br>
+                            </div>
+                            <div class="display-container container" id="result">
+                                <h3 id="result-heading">Result</h3>
+                                <div id="result-body">
+                                    <p>s(t)=A<sub>m</sub>cos(2πf<sub>c</sub>t+(Δ/fm)sin(2πf<sub>m</sub>t))</p>
+                                    <p>Modulation Index &nbsp;μ=Δ/fm = <span id="modulation-index"></span></p>
+                                </div>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="demodulation-screen">
+                        <div class="section" id="am-data-d">
+                            <h2 class="heading">Frequency Modulated Signal</h2>
+                            <div class="canvas-container container">
+                                <canvas id="am-d" width="450" height="130"></canvas><br><br>
+                            </div>
+                        </div>
+    
+                        <div class="section" id="message-data-d">
+                            <h2 class="heading">Message Signal &nbsp; <span class="formula">m(t)=A<sub>m</sub>cos(2πf<sub>m</sub>t)</span></h2>
+                            <div class="canvas-container container">
+                                <canvas id="message-d" width="450" height="130"></canvas><br>
+                            </div>
+                        </div>
+    
+                        <div class="section" id="message-data-d">
+                            <div class="display-container container demodulation-controls">
+                                <span class="label">Message Signal Amplitude</span> <br><input id="m-amplitude-d" step="0.5" type="range" value=10 min=1 max=30>
+                                <p id="m-amplitude-display-d" class="display">10</p> Volts<br>
+                                <span class="label">Message Signal Frequency</span> <br><input id="m-frequency-d" type="range" value=3000 min=500 step="500" max=10000>
+                                <p id="m-frequency-display-d" class="display">3000</p> Hz<br><br>
+                            </div>
+    
+                            <div class="display-container container demodulation-controls">
+                                <span class="label">Frequency Deviation</span> <br><input id="c-amplitude-d" step="0.5" type="range" value=10 min=1 max=30>
+                                <p id="c-amplitude-display-d" class="display">10</p> <br>
+                                <span class="label">Carrier Signal Frequency</span> <br><input id="c-frequency-d" type="range" value=20 min=10 max=100>
+                                <p id="c-frequency-display-d" class="display">20</p> KHz<br><br>
+                            </div>
+    
+                            <div class="display-container container demodulation-controls" style="padding: 0" id="result">
+                                <h3 id="result-heading">Result</h3>
+                                <div id="result-body">
+                                    <p>s(t)=A<sub>m</sub>cos(2πf<sub>c</sub>t+(Δ/fm)sin(2πf<sub>m</sub>t))</p>
+                                    <p>Modulation Index &nbsp;μ=A<sub>m</sub>/A<sub>c</sub> = <span id="modulation-index-d"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box" id="observation">
+                <div class="title">
+                    <h2 class="heading">Observations</h2>
+                </div>
+                <div class="desc1">
+                    <p class="desc">
+                        1. As the amplitude or frequency of the message signal is increased, the modulation pattern becomes more dense or sparse.<br>
+                        2. The carrier waveform remains constant in amplitude and frequency until modulation is applied.<br>
+                        3. The frequency of the modulated waveform changes based on the message signal’s instantaneous amplitude.<br>
+                        4. The demodulated signal waveform approximates the original message signal.<br>
+                        5. A higher message amplitude results in a larger deviation in frequency of the FM signal.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="box" id="quiz">
+                <div class="title">
+                    <h2 class="heading" id="quiz1">FM Modulation Quiz</h2>
+                </div>
+                <br>
+                <div class="quiz_cont">
+                    <div class="quiz_head">
+                        <!-- Pre Test -->
+                        <div class="ques">
+                            Q1. If f<sub>min</sub> is 1kHz and f<sub>c</sub> is 10kHz, find the frequency deviation:
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="rigt-ans">a : 11KHz</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : 9KHz</li>
+                                <li onclick="selected(this)" class="wrng-ans">c : 9.5KHz</li>
+                                <li onclick="selected(this)" class="wrng-ans">d : None of the above</li>
+                            </ul>
+                        </div>
+    
+                        <div class="ques">
+                            Q2. A FM signal has finite number of sidebands.
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="rigt-ans">a : True</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : False</li>
+                            </ul>
+                        </div>
+    
+                        <div class="ques">
+                            Q3. What is used to remove amplitude variations due to noise in FM receiver?
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="wrng-ans">a : Amplification</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : Filtration</li>
+                                <li onclick="selected(this)" class="rigt-ans">c : Amplitude limiter</li>
+                                <li onclick="selected(this)" class="wrng-ans">d : Demodulation</li>
+                            </ul>
+                        </div>
+    
+                        <div class="ques">
+                            Q4. In frequency modulation, what is done before modulation?
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="wrng-ans">a : De-emphasis</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : Amplitude limiting</li>
+                                <li onclick="selected(this)" class="wrng-ans">c : Filtration</li>
+                                <li onclick="selected(this)" class="rigt-ans">d : Pre-emphasis</li>
+                            </ul>
+                        </div>
+    
+                        <!-- Post Test -->
+                        <div class="ques">
+                            Q5. In FM modulation, when the modulation index increases, the transmitted power is __________.
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="rigt-ans">a : Unchanged</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : Increased</li>
+                                <li onclick="selected(this)" class="wrng-ans">c : Decreased</li>
+                                <li onclick="selected(this)" class="wrng-ans">d : None of these</li>
+                            </ul>
+                        </div>
+    
+                        <div class="ques">
+                            Q6. Based on modulation index FM is classified as __________.
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="wrng-ans">a : Multitone FM</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : Narrowband FM</li>
+                                <li onclick="selected(this)" class="rigt-ans">c : Both b and d</li>
+                                <li onclick="selected(this)" class="rigt-ans">d : Wideband FM</li>
+                            </ul>
+                        </div>
+    
+                        <div class="ques">
+                            Q7. Total variation of frequency from its low to high point is termed as __________.
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="rigt-ans">a : Carrier Swing</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : Swing Sideband</li>
+                                <li onclick="selected(this)" class="wrng-ans">c : Width Frequency</li>
+                                <li onclick="selected(this)" class="wrng-ans">d : Deviation</li>
+                            </ul>
+                        </div>
+    
+                        <div class="ques">
+                            Q8. Consider the FM signal Xc(t) = 10 cos(2π × 10⁸t + 0.5 sin(10⁴πt)). The bandwidth of Xc(t) is approximately __________.
+                            <br><br>
+                            <ul type="none" class="opts">
+                                <li onclick="selected(this)" class="rigt-ans">a : 12KHz</li>
+                                <li onclick="selected(this)" class="wrng-ans">b : 15KHz</li>
+                                <li onclick="selected(this)" class="wrng-ans">c : 100MHz</li>
+                                <li onclick="selected(this)" class="wrng-ans">d : 6KHz</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box" id="result">
+                <div class="title">
+                    <h2 class="heading">Result & Discussion</h2>
+                </div>
+                <div class="desc1">
+                    <p class="desc">
+                        The simulation of Frequency Modulation (FM) and Demodulation demonstrates that in FM, the frequency of the carrier signal varies with the amplitude of the message signal, while the amplitude remains constant. The modulated waveform exhibits compressed and expanded cycles depending on the message signal's amplitude, and the demodulated output closely resembles the original message signal.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="box" id="precaution">
+                <div class="title">
+                    <h2 class="heading">Precautions</h2>
+                </div>
+                <div class="desc1">
+                    <p class="desc">
+                        1. Ensure message signal frequency is much lower than the carrier frequency.<br>
+                        2. Avoid setting modulation index too high or too low to prevent distortion.<br>
+                        3. Use correct carrier parameters during demodulation to match modulation settings.<br>
+                        4. Change signal parameters only when the simulation is stopped.<br>
+                        5. Reset the simulation between runs to avoid display or logic errors.<br>
+                        6. Carefully observe waveform changes with each parameter variation.<br>
+                        7. Verify all inputs are within allowed range for amplitude and frequency sliders.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="title" id="references">
+                    <h2 class="heading">References</h2>
+                </div>
+                <div class="desc1">
+                    <ol class="desc">
+                        <li><a href="https://kcgcollege.ac.in/Virtual-Lab/Electronics-and-Communication-Engineering/Exp-2/">Vlab kcgcollege</a></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="title" id="references">
+                    <h2 class="heading">Team</h2>
+                </div>
+                <div class="desc1">
+                    <ol class="desc">
+                        <li>Aashnee</li>
+                        <li>Kush Gautam</li>
+                        <li>Yash Asthana</li>
+                    </ol>
+                    <ol>
+                        Ms. Ruchika Kant
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="/static/js/modulation/message.js"></script>
+    <script src="/static/js/modulation/carrier.js"></script>
+    <script src="/static/js/modulation/am.js"></script>
+    <script src="/static/js/demodulation/messageD.js"></script>
+    <script src="/static/js/demodulation/amD.js"></script>
+    <script src="/static/js/display.js"></script>
+    <script src="/static/js/controls.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+
+</html>
