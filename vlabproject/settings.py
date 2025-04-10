@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-1#4#h=)31540z9%h!3=#x%l*c0aay9h1-1@^#&p7@gmo4uzb(a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vlabproject.onrender.com']
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # Application definition
